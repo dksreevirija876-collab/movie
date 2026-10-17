@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineStream | Stream Unlimited Movies & TV Shows</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <a href="index.html" class="logo">
+      <span>🎬</span> Cine<span>Stream</span>
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#trending">Movies</a></li>
+        <li><a href="#top-rated">Top Rated</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="search-bar">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="Search movies, actors..." />
+      </div>
+      <button class="btn-primary">Sign In</button>
+    </div>
+  </header>
+
+  <!-- Hero Featured Movie -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">Featured Premiere</span>
+      <h1 class="hero-title">Cosmic Horizon: Odyssey</h1>
+      
+      <div class="hero-meta">
+        <span class="rating">★ 8.9 / 10</span>
+        <span>2024</span>
+        <span class="tag">4K Ultra HD</span>
+        <span class="tag">PG-13</span>
+        <span>2h 48m</span>
+      </div>
+
+      <p class="hero-description">
+        When a mysterious gravitational anomaly threatens Earth's atmosphere, an intrepid team of deep-space researchers embarks on a perilous voyage beyond the solar frontier to chart humanity's final refuge.
+      </p>
+
+      <div class="hero-cta">
+        <button class="btn-primary">▶ Watch Trailer</button>
+        <button class="btn-secondary">+ Add to Watchlist</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="container">
+
+    <!-- Category Filter Pills -->
+    <div class="genre-filter">
+      <button class="genre-pill active">All Genres</button>
+      <button class="genre-pill">Action & Adventure</button>
+      <button class="genre-pill">Sci-Fi & Cyberpunk</button>
+      <button class="genre-pill">Psychological Thriller</button>
+      <button class="genre-pill">Drama</button>
+      <button class="genre-pill">Animation</button>
+      <button class="genre-pill">Mystery</button>
+    </div>
+
+    <!-- Section 1: Trending Now -->
+    <section id="trending">
+      <div class="section-header">
+        <h2 class="section-title">Trending Now</h2>
+        <a href="#" class="see-all">Explore All &rarr;</a>
+      </div>
+
+      <div class="movie-grid">
+        <!-- Movie Card 1 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80" alt="Neon Genesis poster" loading="lazy" />
+            <div class="card-rating-badge">★ 8.7</div>
+            <div class="card-overlay">
+              <span class="card-badge">HD</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Neon Shadows: Tokyo</h3>
+            <div class="card-meta">
+              <span>Sci-Fi / Thriller</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Movie Card 2 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80" alt="The Silent Sentinel poster" loading="lazy" />
+            <div class="card-rating-badge">★ 8.4</div>
+            <div class="card-overlay">
+              <span class="card-badge">4K HDR</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">The Silent Sentinel</h3>
+            <div class="card-meta">
+              <span>Action / Fantasy</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Movie Card 3 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&w=600&q=80" alt="Eclipse of the Void poster" loading="lazy" />
+            <div class="card-rating-badge">★ 9.1</div>
+            <div class="card-overlay">
+              <span class="card-badge">4K</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Eclipse of the Void</h3>
+            <div class="card-meta">
+              <span>Mystery / Drama</span>
+              <span>2024</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Movie Card 4 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?auto=format&fit=crop&w=600&q=80" alt="Midnight Runner poster" loading="lazy" />
+            <div class="card-rating-badge">★ 7.9</div>
+            <div class="card-overlay">
+              <span class="card-badge">HD</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Midnight Runner</h3>
+            <div class="card-meta">
+              <span>Crime / Action</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 2: Top Rated & Fan Favorites -->
+    <section id="top-rated" style="margin-top: 4rem;">
+      <div class="section-header">
+        <h2 class="section-title">Top Rated Classics</h2>
+        <a href="#" class="see-all">Explore All &rarr;</a>
+      </div>
+
+      <div class="movie-grid">
+        <!-- Movie Card 5 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80" alt="Forgotten Realm poster" loading="lazy" />
+            <div class="card-rating-badge">★ 9.3</div>
+            <div class="card-overlay">
+              <span class="card-badge">4K HDR</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">The Forgotten Realm</h3>
+            <div class="card-meta">
+              <span>Adventure / Epic</span>
+              <span>2022</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Movie Card 6 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Neural Link poster" loading="lazy" />
+            <div class="card-rating-badge">★ 8.8</div>
+            <div class="card-overlay">
+              <span class="card-badge">4K</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Neural Odyssey</h3>
+            <div class="card-meta">
+              <span>Cyberpunk / Sci-Fi</span>
+              <span>2021</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Movie Card 7 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80" alt="Whispers in the Mist poster" loading="lazy" />
+            <div class="card-rating-badge">★ 8.6</div>
+            <div class="card-overlay">
+              <span class="card-badge">HD</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Whispers in the Mist</h3>
+            <div class="card-meta">
+              <span>Horror / Mystery</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Movie Card 8 -->
+        <article class="movie-card">
+          <div class="card-poster">
+            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80" alt="Chasing Starlight poster" loading="lazy" />
+            <div class="card-rating-badge">★ 8.5</div>
+            <div class="card-overlay">
+              <span class="card-badge">4K HDR</span>
+              <div class="play-hover-btn">▶</div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Chasing Starlight</h3>
+            <div class="card-meta">
+              <span>Romance / Drama</span>
+              <span>2023</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span>🎬</span> Cine<span>Stream</span>
+        </a>
+        <p>The premier cinema streaming destination for award-winning films, trending series, and independent masterpieces.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#trending">Trending Movies</a></li>
+          <li><a href="#top-rated">Top Rated</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Account Settings</a></li>
+          <li><a href="#">Supported Devices</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Stay Updated</h4>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.8rem;">
+          Get weekly curated film recommendations and early access screenings.
+        </p>
+        <div class="footer-newsletter">
+          <input type="email" placeholder="Enter your email" />
+          <button class="btn-primary" style="width: 100%; justify-content: center;">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 CineStream Inc. All rights reserved.</p>
+      <p>Designed with passion for movie enthusiasts.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
